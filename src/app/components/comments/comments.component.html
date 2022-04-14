@@ -1,0 +1,11 @@
+<mat-expansion-panel (opened)="onPanelOpened($event)">
+  <mat-expansion-panel-header>
+    <mat-panel-title *ngIf="!panelAlreadyOpened">
+      Click to load comments...
+    </mat-panel-title>
+    <mat-panel-description> </mat-panel-description>
+  </mat-expansion-panel-header>
+  <div *ngFor="let comment of comments">
+    <app-comment [comment]="comment"></app-comment>
+  </div>
+</mat-expansion-panel>

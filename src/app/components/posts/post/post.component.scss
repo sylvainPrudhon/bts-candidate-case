@@ -1,0 +1,37 @@
+mat-card {
+  color: #56697e;
+  text-align: justify;
+  max-width: 100%;
+  border: solid 1px #ccc;
+  margin: 10px;
+  min-height: 60px;
+  display: block;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+
+  mat-card-title {
+    font-weight: bold;
+    color: #062141;
+  }
+
+  mat-card-subtitle {
+    font-size: 12px;
+    b:hover {
+      color: #062141;
+      cursor: pointer;
+    }
+  }
+
+  .draggable-item {
+    cursor: grab;
+    float: right;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://icon-library.com/images/draggable-icon/draggable-icon-10.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+  }
+}

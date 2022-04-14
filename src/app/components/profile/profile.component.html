@@ -1,0 +1,21 @@
+<mat-card *ngIf="user" class="card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image"></div>
+    <mat-card-title>{{user.name}}</mat-card-title>
+    <mat-card-subtitle>@{{user.company.name}}</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300"
+    alt="photo"
+  />
+  <mat-card-content>
+    <p>
+      {{user.company.catchPhrase}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="phoneCallTo()">Contact by phone</button>
+    <button mat-button (click)="mailTo()">Contact by mail</button>
+  </mat-card-actions>
+</mat-card>

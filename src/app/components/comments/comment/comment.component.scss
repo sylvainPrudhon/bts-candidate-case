@@ -1,0 +1,29 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  
+  .image {
+    background-image: url('https://www.kindpng.com/picc/m/381-3817314_transparent-groups-of-people-png-user-icon-round.png');
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .title {
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+    line-height: 180%;
+    margin-bottom: 5px;
+    color: #062141;
+  }
+
+  .comment {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba($color: #000, $alpha: 0.1);
+  }
+}

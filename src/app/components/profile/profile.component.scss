@@ -1,0 +1,21 @@
+mat-card {
+  max-width: 300px;
+  margin: 10px;
+  background-color: #07386f;
+  color: #fff;
+
+  mat-card-subtitle {
+    color: #ebf4ffaa;
+  }
+
+  .header-image {
+    background-image: url('https://mpng.subpng.com/20180718/uzc/kisspng-shiba-inu-dogecoin-iphone-6-iphone-4s-doge-png-5b4ed836a0e4e8.677457711531893814659.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  button {
+    background-color: #05c195;
+    color: #fff;
+  }
+}
